@@ -1,0 +1,161 @@
+.main-container{
+  display: flex;
+  margin-top: 15px;
+}
+.banner-container,
+.form-container{
+  flex: 1 1 0;
+  width: 50%;
+}
+.banner-container{
+  text-align: right;
+}
+.banner-container img{  
+  width: 100%;
+  margin-right: 15px;
+  margin-top: 25px;
+  max-width: 380px;
+}
+.form-container{
+  text-align: center;
+}
+.form-box{
+  border: 1px solid #dbdbdb;
+  width: 350px;
+  margin-top: 30px;
+}
+.logo-insta{
+  width: 150px;
+  margin: 40px auto;
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-form input{
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 14px;
+  height: 40px;
+}
+.login-btn{
+  background-color: #6fbef3;
+  color: white;
+  font-weight: bold;
+}
+.separator{
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  color: #6b6b6b;
+}
+.line{
+  border-bottom:1px solid #ccc;
+  margin-left: 35px;
+  margin-right: 35px;
+  flex: 1 1 0;
+}
+.facebook-login{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.facebook-login img{
+  margin-right: -150px;
+  height: 16px;
+  width: 16px;
+}
+.facebook-link{
+  text-decoration: none;
+  font-size: 16px;
+}
+.forgot-pass-link{
+  text-decoration: none;
+  font-size: 12px;
+}
+.forgot-pass{
+  margin-bottom: 20px;
+}
+
+.register-container{
+  border: 1px solid #dbdbdb;
+  width: 350px;
+  margin-top: 10px;
+  height: 60px;
+  line-height: 60px;
+}
+.register-link{
+  text-decoration: none;
+  color: #0f8fe4;
+}
+.register-text{
+  font-size: 14px;
+}
+
+.get-app-container{
+  width: 350px;
+  margin-top: 15px;
+}
+.get-app-container a{
+  text-decoration: none;
+}
+.get-app-container p{
+  font-size: 14px;
+}
+.get-app img{
+  width: 100px;
+  height: 35px;
+  margin: 10px 5px;
+}
+
+.footer{
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  max-width: 800px;
+  margin: 60px auto;
+  text-align: center;
+  flex-wrap: wrap; 
+}
+
+.footer-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.footer-links li{
+  list-style: none;
+}
+
+.footer-link,
+.copyright{
+  color: #666464;
+  text-decoration: none;
+  font-size: 10px;
+}
+@media (max-width: 768px){
+  .banner-container{
+    display: none;
+  }
+  .footer{
+    width: 90%;
+  }
+  .main-container,
+  .form-box{
+    margin-top: 0;
+  }
+  .form-container,
+  .form-box,
+  .register-container,
+  .get-app-container{
+    width: 100%;
+    border: none;
+  }
+}
