@@ -18,54 +18,58 @@
 
       <div class="form-container">
         <div class="form-box">
-          <img src="imagens/logo_instagram.png">
+          <img src="imagens/logo_instagram.png" class="logo-insta">
           <form class="login-form">
             <input type="text" name="username" placeholder="Número de telefone, usuário ou e-mail">
             <input type="password" name="password" placeholder="Senha">
-            <input type="submit" value="Entrar">
+            <input type="submit" value="Entrar" class="login-btn">
           </form>
           <div class="separator">
             <div class="line"></div>
             <span>ou</span>
+            <div class="line"></div>
           </div>
           <div class="other-links">
             <div class="facebook-login">
               <img src="imagens/logo_facebook.svg">
-              <span>Entrar com Facebook</span>
+              <a href="#" class="facebook-link">Entrar com Facebook</a>
             </div>
             <div class="forgot-pass">
-              <a href="#">Esqueceu a senha?</a>
+              <a href="#" class="forgot-pass-link">Esqueceu a senha?</a>
             </div>
           </div>
         </div>
         <div class="register-container">
-          <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+          <p class="register-text">Não tem uma conta? <a href="#" class="register-link">Cadastre-se</a></p>
         </div>
         <div class="get-app-container">
           <p>Obtenha o aplicativo.</p>
-          <a href="#">
-            <img src="imagens/apple_btn.png">
-          </a>
-          <a href="#">
-            <img src="imagens/gplay_btn.png">
-          </a>
+          <div class="get-app">
+            <a href="#">
+              <img src="imagens/apple_btn.png">
+            </a>
+            <a href="#">
+              <img src="imagens/gplay_btn.png">
+            </a>
+          </div>          
         </div>
       </div>
     </div>
   </main>
 
-  <footer>
+  <footer class="footer">
     <nav>
       <ul class="footer-links">
-        <li><a href="#">Meta</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Ajude</a></li>
-        <li><a href="#">API</a></li>
-        <li><a href="#">Privacidade</a></li>
-        <li><a href="#">Termos</a></li>
+        <li><a href="#" class="footer-link">Meta</a></li>
+        <li><a href="#" class="footer-link">Sobre</a></li>
+        <li><a href="#" class="footer-link">Blog</a></li>
+        <li><a href="#" class="footer-link">Ajude</a></li>
+        <li><a href="#" class="footer-link">API</a></li>
+        <li><a href="#" class="footer-link">Privacidade</a></li>
+        <li><a href="#" class="footer-link">Termos</a></li>
       </ul>
     </nav>
+    <p class="copyright">© 2023 Instagram from Meta</p>
   </footer>
 
 </body>
